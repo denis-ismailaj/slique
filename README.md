@@ -20,3 +20,5 @@ To save memory when an index is dequeued even though the index remains in the sl
 an optimization could be made that if `T` is a pointer type it is nullified
 (potentially leading to its value being garbage collected), or if it is not it can be replaced
 with the zero-value of that type (which may or may not occupy less space).
+
+For a more performant alternative, check out [cirque](https://github.com/denis-ismailaj/cirque).
